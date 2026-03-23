@@ -1,20 +1,20 @@
-export default function Esplora() {
+export default function Esplora(props) {
   return (
-    <section className="max-w-7xl mx-auto p-6">
-      
-
-      {/* Griglia con le proporzioni richieste */}
-      <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-y-10 gap-x-4">
-        
-        {/* Elemento 1 */}
-        <div className="flex flex-col items-center text-center">
-          <div className="h-24 w-100 flex items-center justify-center mb-2">
-            <img src="images/cuod.jpg" alt="Moto" className="max-h-full object-contain" />
-          </div>
-          <span className="text-sm font-semibold">Moto</span>
-        </div>
-
+    // Singolo elemento della griglia
+    <div className="flex flex-col items-center group cursor-pointer">
+      {/* Contenitore Immagine: h-32 o h-40 per dare spazio */}
+      <div className="h-32 w-full flex items-center justify-center mb-4">
+        <img 
+          src={props.immagine} 
+          alt={props.titolo} 
+          className="max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105" 
+        />
       </div>
-    </section>
+
+      {/* Testo: centrato, font sottile, tutto minuscolo */}
+      <span className="text-[13px] font-medium leading-tight text-center max-w-[100px] lowercase">
+        {props.titolo}
+      </span>
+    </div>
   );
 }

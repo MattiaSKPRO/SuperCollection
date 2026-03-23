@@ -20,9 +20,6 @@ export default function Card() {
         <div className="relative z-10 text-white">
           <p className="text-xs font-bold uppercase tracking-tight">Vento in poppa</p>
           <h2 className="text-2xl font-black italic mb-3">INCENTIVI SEA</h2>
-          <button className="bg-white text-black px-6 py-2 rounded-full text-[10px] font-bold uppercase w-fit tracking-tighter">
-            SCOPRI ORA →
-          </button>
         </div>
       </div>
 
