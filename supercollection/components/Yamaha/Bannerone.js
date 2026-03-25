@@ -1,6 +1,6 @@
 export default function Bannerone() {
   return (
-    <main className="w-full bg-black">
+    <main className="w-full bg-black ">
       
      
       <div className="relative w-full aspect-[21/9] md:aspect-[3/1] overflow-hidden">
