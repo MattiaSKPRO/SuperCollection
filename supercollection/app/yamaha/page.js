@@ -3,7 +3,7 @@ import Navbar from "@/components/Yamaha/Navbar";
 import Bannerone from "@/components/Yamaha/Bannerone";
 import Card from "@/components/Yamaha/Card";
 import Esplora from "@/components/Yamaha/Esplora";
-import Duce from "@/components/Duce";
+import Duce from "@/components/Yamaha/Duce";
 import Tre from "@/components/Yamaha/Tre";
 import Eventi from "@/components/Yamaha/Eventi";
 import Destinazione from "@/components/Yamaha/Destinazione";
