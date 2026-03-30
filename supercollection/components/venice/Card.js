@@ -1,6 +1,6 @@
 export default function Card(props) {
   return (
-    <div className="border rounded-lg overflow-hidden shadow-sm bg-white max-w-sm">
+    <div className="border rounded-lg overflow-hidden shadow-sm bg-white max-w-sm md:w-1/4">
       {/* Immagine */}
       <div className="relative">
         <img 
