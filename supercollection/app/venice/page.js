@@ -2,6 +2,8 @@ import Navbar from "@/components/venice/Navbar";
 import Bannerone from "@/components/venice/Bannerone";
 import Card from "@/components/venice/Card";
 import Tour from "@/components/venice/Tour";
+import Banner from "@/components/venice/Banner";
+import Footer from "@/components/venice/Footer";
 export default function Venice() {
   return (
     <>
@@ -36,7 +38,8 @@ export default function Venice() {
       </div>
 
 <Tour></Tour>
-
+<Banner></Banner>
+<Footer></Footer>
     </>
   );
 }
