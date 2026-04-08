@@ -32,9 +32,9 @@ export default function Venice() {
 
       {/* Sezione delle Card */}
       <div className="flex justify-center gap-7 mt-5 mb-20 flex-wrap ">
-        <Card images="images/venice/card1.jpg" />
-        <Card images="images/venice/card2.jpg" />
-        <Card images="images/venice/card3.jpg" />
+        <Card dati={datiCard} />
+        <Card dati={datiCard1}/>
+        <Card  dati={datiCard2}/>
       </div>
 
 <Tour></Tour>
@@ -43,3 +43,32 @@ export default function Venice() {
     </>
   );
 }
+
+  const datiCard ={
+    testo:"Tour giornaliero in barca da Venezia-Murano, Burano e Torcello con guida a bordo e tempo libero",
+    immagine:"images/venice/card1.jpg",
+    elenco:"Partenza:Venezia",
+    elenco2:"Disponibilità dal: Disponibile tutto l'anno",
+    elenco3:"Durata:6h 30min",
+    prenota:"Prenota",
+    soldi:"30,00€"
+}
+ const datiCard1 ={
+    testo:"Tour in barca da Venezia: Murano e Burano con dimostrazione del vetro e tempo libero",
+    immagine:"images/venice/card2.jpg",
+    elenco:"Partenza:Venezia",
+    elenco2:"Disponibilità dal: Disponibile ",
+    elenco3:"Durata:4h 50min",
+    prenota:"Prenota",
+    soldi:"25,00€"
+}
+ const datiCard2 ={
+    testo:"BURANO SPECIAL: escursione a Burano da Venezia con tempo libero per esplorare l'isola",
+    immagine:"images/venice/card3.jpg",
+    elenco:"Partenza:Venezia",
+    elenco2:"Disponibilità dal: Disponibile ",
+    elenco3:"Durata:6h 45min",
+    prenota:"Prenota",
+    soldi:"25,00€"
+}
+
