@@ -11,7 +11,7 @@ import About from "@/components/Yamaha/About";
 export default function Home() {
   return (
     <>
-      <Navbar></Navbar>
+
 
       <Bannerone></Bannerone>
 

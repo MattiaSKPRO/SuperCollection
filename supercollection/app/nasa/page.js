@@ -7,8 +7,8 @@ export default function Nasa() {
     <main >
       <Navbar />
       <Video />
-      
-      <Notizie />
+        
+        <Notizie />
       <div className="flex flex-wrap justify-center gap-20 mt-10 ">
             <Card dati={datiCard} />
             <Card dati={datiCard1}/>
